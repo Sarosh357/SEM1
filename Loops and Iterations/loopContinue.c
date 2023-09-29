@@ -23,7 +23,7 @@ int main() {
             continue;
         }
         // Printing the iteration.
-        printf("%d", index);
+        printf("%d\n", index);
 
     }
     

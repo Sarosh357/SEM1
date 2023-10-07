@@ -2,7 +2,7 @@
 CLASS: Programming in C
 SUBJECT CODE: 23BCA1C04
 AUTHOR: Sarosh
-DESCRIPTION: This code uses while statement to print the sum of the digits of a given number
+DESCRIPTION: This code uses do-while statement to print the sum of the digits of a given number
 */
 
 #include <stdio.h>
@@ -15,12 +15,12 @@ int main () {
     printf("Enter the number whose sum of digits need to be found:\n");
     scanf("%d", &number);
 
-    // While loop checks while number is greater than 0.
-    while(number>0) {
+    // Do-while loop checks while number is greater than 0.
+    do {
         digit = number%10;
         sum += digit;
         number /= 10;
-    }
+    } while(number>0); 
 
     // Outputting the sum of the digits.
     printf("\nThe sum is %d", sum);

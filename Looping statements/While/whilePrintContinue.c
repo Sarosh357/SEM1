@@ -2,14 +2,14 @@
 CLASS: Programming in C
 SUBJECT CODE: 23BCA1C04
 AUTHOR: Sarosh
-DESCRIPTION: This code uses while statement to print n natural numbers (starting from 0) except 5 using continue.
+DESCRIPTION: This code uses while statement to print N natural numbers (starting from 1) except 5 using continue.
 */
 
 #include <stdio.h>
 
 int main() {
     // Variable declaration.
-    int index = 0, maxTerm;
+    int index = 1, maxTerm;
 
     // Takes the number of natural numbers to be printed from the user.
     printf("Enter the number of natural numbers to be printed:\n");

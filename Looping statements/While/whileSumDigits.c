@@ -16,7 +16,8 @@ int main () {
     scanf("%d", &number);
 
     // While loop checks while number is greater than 0.
-    while(number>0) {
+    while(number>0) 
+    {
         digit = number%10;
         sum += digit;
         number /= 10;

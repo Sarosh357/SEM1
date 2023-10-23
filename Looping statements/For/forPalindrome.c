@@ -19,7 +19,7 @@ int main () {
     originalNumber = number;
 
     // For loop iterates till number is not equal to 0.
-    for (;number != 0;) 
+    for (; number != 0;) 
     {
         digit = number % 10;
         reverse = reverse * 10 + digit;

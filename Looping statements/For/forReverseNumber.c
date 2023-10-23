@@ -15,7 +15,7 @@ int main () {
     printf("Enter the number: ");
     scanf("%d", &number);
 
-    // While loop iterates till number is not equal to 0.
+    // For loop iterates till number is not equal to 0.
     for(; number != 0;)  
     {
         digit = number % 10;
@@ -29,3 +29,9 @@ int main () {
 
     return 0;
 }
+
+/*
+ OUTPUT:
+ Enter the number: 215
+ The reverse of the number is 512
+*/

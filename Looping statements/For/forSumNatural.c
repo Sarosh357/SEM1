@@ -2,7 +2,7 @@
 CLASS: Programming in C
 SUBJECT CODE: 23BCA1C04
 AUTHOR: Sarosh
-DESCRIPTION: This code uses while statement to print the sum of n number of natural numbers starting from 0.
+DESCRIPTION: This code uses for loop statement to print the sum of n number of natural numbers starting from 0.
 */
 
 #include <stdio.h>
@@ -23,7 +23,7 @@ int main() {
     }
     
     // Looping statement, the loop iterates as long as the number of terms is greater than or equal to variable c (incrementing variable).
-    for (;maxTerm >= index;) 
+    for (; maxTerm >= index;) 
     {
         sum += index;
         index++;

@@ -25,3 +25,12 @@ int main() {
 
     return 0;
 }
+
+/*
+ OUTPUT:
+ Enter a number
+ 210
+ 0
+ 1
+ 2
+*/

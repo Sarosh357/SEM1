@@ -15,7 +15,7 @@ int main () {
     printf("Enter the number whose sum of digits need to be found:\n");
     scanf("%d", &number);
 
-    // While loop checks while number is greater than 0.
+    // For loop checks while number is greater than 0.
     for(; number != 0;) 
     {
         digit = number%10;
@@ -29,3 +29,10 @@ int main () {
     return 0;
 
 }
+
+/*
+ OUTPUT:
+ Enter the number whose sum of digits need to be found:
+ 213
+ The sum is 6
+*/

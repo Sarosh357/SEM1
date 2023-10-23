@@ -17,7 +17,7 @@ int main() {
     scanf("%d", &number);
 
     // For loop iterates till number is greater than 0.
-    for (;number > 0;) 
+    for (; number > 0;) 
     {
         number/=10;
         count++;

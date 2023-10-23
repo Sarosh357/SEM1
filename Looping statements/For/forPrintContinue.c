@@ -9,14 +9,14 @@ DESCRIPTION: This code uses for loop to print N natural numbers (starting from 1
 
 int main() {
     // Variable declaration.
-    int index = 1, maxTerm;
+    int index = 0, maxTerm;
 
     // Takes the number of natural numbers to be printed from the user.
-    printf("Enter the number of natural numbers to be printed:\n");
+    printf("Enter the number of natural numbers to be printed: ");
     scanf("%d", &maxTerm);
 
     // For loop increments iteration variable and checks if it is equal to 5 at any point of the looping.
-    for (;index < maxTerm;) 
+    for (; index < maxTerm;) 
     {
         index++;
         
@@ -33,3 +33,9 @@ int main() {
     
     return 0;
 }
+
+/*
+ OUTPUT:
+ 5
+ Sum of 5 terms is 15
+*/

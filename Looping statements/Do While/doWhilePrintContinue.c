@@ -9,10 +9,10 @@ DESCRIPTION: This code uses do-while statement to print n natural numbers (start
 
 int main() {
     // Variable declaration.
-    int index = 1, maxTerm;
+    int index = 0, maxTerm;
 
     // Takes the number of natural numbers to be printed from the user.
-    printf("Enter the number of natural numbers to be printed:\n");
+    printf("Enter the number of natural numbers to be printed: ");
     scanf("%d", &maxTerm);
 
     // Do-while loop increments iteration variable and checks if it is equal to 5 at any point of the looping.

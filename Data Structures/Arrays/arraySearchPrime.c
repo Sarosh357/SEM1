@@ -64,7 +64,7 @@ int main() {
         }
     }
 
-    // Outputs the sum of the elements of the array.
+    // Outputs the count of prime numbers present in the array.
     printf("\nThere are %d prime numbers in the given array", count);
     
     return 0;

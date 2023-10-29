@@ -18,7 +18,7 @@ int main() {
 
     printf("Enter the array: ");
     
-    for(index = 0; index < number; index++)
+    for (index = 0; index < number; index++)
     {
         scanf("%d", &array[index]);
     }
@@ -27,17 +27,20 @@ int main() {
     scanf("%d", &searchElement);
 
     // For loop goes through every element of the array and checks if any of them match the search element.
-    for(index = 0; index < number; index++)
+    for (index = 0; index < number; index++)
     {
-        if(array[index] == searchElement) {
+        if (array[index] == searchElement) 
+        {
             flag = 1;
             break;
-        } else { 
+        } 
+        else 
+        { 
         flag = 0;
         }
     }
 
-    if(flag == 1)
+    if (flag == 1)
     {
         printf("The element %d is found at index %d.", searchElement, index);
     } else {

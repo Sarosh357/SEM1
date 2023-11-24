@@ -1,0 +1,3 @@
+Name:	Sarosh
+Age:	20
+Salary:	120000.00
